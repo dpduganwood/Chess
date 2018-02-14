@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Big_Projects">
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/gameboard/Graveyard.java</file>
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/gameboard/Square.java</file>
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/pieces/Piece.java</file>
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/helpers/Move.java</file>
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/gameboard/ChessBoard.java</file>
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/gameboard/ChessGame.java</file>
+            <file>file:/C:/Users/jared/Dropbox/Chess/src/helpers/Queening.java</file>
+        </group>
+        <group>
+            <file>file:/Users/apcomputerscience/Dropbox/Chess/src/pieces/Bishop.java</file>
+            <file>file:/Users/apcomputerscience/Dropbox/Chess/src/pieces/Pawn.java</file>
+            <file>file:/Users/apcomputerscience/Dropbox/Chess/src/pieces/Rook.java</file>
+            <file>file:/Users/apcomputerscience/Dropbox/Chess/src/pieces/Knight.java</file>
+            <file>file:/Users/apcomputerscience/Dropbox/Chess/src/pieces/King.java</file>
+        </group>
+    </open-files>
+</project-private>

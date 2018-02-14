@@ -1,0 +1,47 @@
+---Game Board---
+    creates a board with an 8x8 set of squares
+    each square contains a button that can be clicked when activated by a possible move
+        it can also be activated by whos turn it is
+            if the piece is click, it displays possible moved
+            if unclicked, it goes back to pieces you can move
+
+    The board will also contain a "graveyard" of pieces
+        shows thier pictures, each pieces image will be an object transferred here most likely
+
+
+---Possible Moves---
+    show all valid moves for a selected piece, highlighting them
+        --valid moves--
+            piece is capturing the opposing teams piece, as long as it does not lead to a check
+            player cannot put themself into check
+            if player is in check, other pieces clicked will not be able to move unless removing the player from check
+            castleing is not valid if move though check
+                or moving if in check
+                cant castle into check
+
+
+
+
+---The Move---
+    After a legal move is selected, check if capturing (en passant and regular)
+        if (capturing) {
+            remove the piece
+            place in "graveyard"
+            move to the square
+        }
+        else {
+            move to the square
+        }
+
+    if (checkmate) {
+        declare winner
+        end game
+    }
+    else if (stalemate) {
+        end game
+    }
+
+    if (queening) {
+        remove pawn
+        replace with queen object
+    }
